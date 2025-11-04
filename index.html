@@ -64,6 +64,21 @@
             const daysDiff = Math.ceil((christmas - today) / (1000 * 3600 * 24));
             alert(`(EventCountdown) Days until Christmas: ${daysDiff}`);
         }
+
+        function eventCountdownToChristmasFull() {
+            const now = new Date();
+            let christmas = new Date(now.getFullYear(), 11, 25, 0, 0, 0, 0);
+            if (now > christmas) {
+                christmas.setFullYear(christmas.getFullYear() + 1);
+            }
+            let diff = christmas - now;
+            if (diff < 0) diff = 0;
+            const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+            const minutes = Math.floor((diff / (1000 * 60)) % 60);
+            const seconds = Math.floor((diff / 1000) % 60);
+            alert(`(EventCountdown) Time until Christmas: ${days} days, ${hours} hours, ${minutes} minutes, ${seconds} seconds`);
+        }
     </script>
 </head>
 <body>
@@ -77,6 +92,7 @@
             <button class="btn btn-info" onclick="daysUntilChristmas()">Days Until Christmas</button>
             <button class="btn btn-danger" onclick="checkDeadline()">Check Deadline</button>
             <button class="btn btn-dark" onclick="eventCountdownToChristmas()">EventCountdown: Days Until Christmas</button>
+            <button class="btn btn-outline-dark" onclick="eventCountdownToChristmasFull()">EventCountdown: Full Time Until Christmas</button>
         </div>
     </div>
 </body>

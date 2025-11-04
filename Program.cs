@@ -13,3 +13,5 @@ LocalToUTC.PrintLocalTime();
 // Create an EventCountdown for Christmas (25th December)
 var christmas = new EventCountdown(new DateTime(DateTime.Now.Year, 12, 25));
 Console.WriteLine($"Days until Christmas: {christmas.GetDaysRemaining()}");
+var (days, hours, minutes, seconds) = christmas.GetTimeRemaining();
+Console.WriteLine($"Time until Christmas: {days} days, {hours} hours, {minutes} minutes, {seconds} seconds");
