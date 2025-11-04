@@ -1,0 +1,14 @@
+/home/paulo/PauloFiles/dorset_assignments/dorset_season_2/c#_6/oop-2025-04-11-76011/bin/Debug/net8.0/oop-2025-04-11-76011
+/home/paulo/PauloFiles/dorset_assignments/dorset_season_2/c#_6/oop-2025-04-11-76011/bin/Debug/net8.0/oop-2025-04-11-76011.deps.json
+/home/paulo/PauloFiles/dorset_assignments/dorset_season_2/c#_6/oop-2025-04-11-76011/bin/Debug/net8.0/oop-2025-04-11-76011.runtimeconfig.json
+/home/paulo/PauloFiles/dorset_assignments/dorset_season_2/c#_6/oop-2025-04-11-76011/bin/Debug/net8.0/oop-2025-04-11-76011.dll
+/home/paulo/PauloFiles/dorset_assignments/dorset_season_2/c#_6/oop-2025-04-11-76011/bin/Debug/net8.0/oop-2025-04-11-76011.pdb
+/home/paulo/PauloFiles/dorset_assignments/dorset_season_2/c#_6/oop-2025-04-11-76011/obj/Debug/net8.0/oop-2025-04-11-76011.GeneratedMSBuildEditorConfig.editorconfig
+/home/paulo/PauloFiles/dorset_assignments/dorset_season_2/c#_6/oop-2025-04-11-76011/obj/Debug/net8.0/oop-2025-04-11-76011.AssemblyInfoInputs.cache
+/home/paulo/PauloFiles/dorset_assignments/dorset_season_2/c#_6/oop-2025-04-11-76011/obj/Debug/net8.0/oop-2025-04-11-76011.AssemblyInfo.cs
+/home/paulo/PauloFiles/dorset_assignments/dorset_season_2/c#_6/oop-2025-04-11-76011/obj/Debug/net8.0/oop-2025-04-11-76011.csproj.CoreCompileInputs.cache
+/home/paulo/PauloFiles/dorset_assignments/dorset_season_2/c#_6/oop-2025-04-11-76011/obj/Debug/net8.0/oop-2025-04-11-76011.dll
+/home/paulo/PauloFiles/dorset_assignments/dorset_season_2/c#_6/oop-2025-04-11-76011/obj/Debug/net8.0/refint/oop-2025-04-11-76011.dll
+/home/paulo/PauloFiles/dorset_assignments/dorset_season_2/c#_6/oop-2025-04-11-76011/obj/Debug/net8.0/oop-2025-04-11-76011.pdb
+/home/paulo/PauloFiles/dorset_assignments/dorset_season_2/c#_6/oop-2025-04-11-76011/obj/Debug/net8.0/oop-2025-04-11-76011.genruntimeconfig.cache
+/home/paulo/PauloFiles/dorset_assignments/dorset_season_2/c#_6/oop-2025-04-11-76011/obj/Debug/net8.0/ref/oop-2025-04-11-76011.dll

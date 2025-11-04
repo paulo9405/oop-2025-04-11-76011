@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Information</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script>
+        function showAppDetails() {
+            // Simulate calling the C# methods
+            const title = 'My Application'; // Replace with AppConstants.Title
+            const version = '1.0'; // Replace with AppConstants.Version
+            const message = `Application Title: ${title}\nVersion: ${version}`;
+            alert(message);
+        }
+
+        function convertLocalToUTC() {
+            const localDate = new Date();
+            const utcDate = new Date(localDate.getTime() + localDate.getTimezoneOffset() * 60000);
+            alert(`Local Time: ${localDate}\nUTC Time: ${utcDate}`);
+        }
+
+        function printLocalTime() {
+            const localDate = new Date();
+            const utcDate = new Date(localDate.getTime() + localDate.getTimezoneOffset() * 60000);
+            console.log(`Local Time: ${localDate}`);
+            console.log(`UTC Time: ${utcDate}`);
+        }
+
+        function daysUntilBirthday() {
+            const today = new Date();
+            const birthday = new Date(today.getFullYear(), 4, 5); // May 5th
+            if (today > birthday) {
+                birthday.setFullYear(birthday.getFullYear() + 1);
+            }
+            const timeDiff = birthday - today;
+            const daysDiff = Math.ceil(timeDiff / (1000 * 3600 * 24));
+            alert(`Days until birthday: ${daysDiff}`);
+        }
+
+        function daysUntilChristmas() {
+            const today = new Date();
+            const christmas = new Date(today.getFullYear(), 11, 25); // December 25th
+            if (today > christmas) {
+                christmas.setFullYear(christmas.getFullYear() + 1);
+            }
+            const timeDiff = christmas - today;
+            const daysDiff = Math.ceil(timeDiff / (1000 * 3600 * 24));
+            alert(`Days until Christmas: ${daysDiff}`);
+        }
+    </script>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Application Information C# Programming Class</h1>
+        <div class="text-center">
+            <button class="btn btn-primary" onclick="showAppDetails()">Show App Details</button>
+            <button class="btn btn-secondary" onclick="convertLocalToUTC()">Convert Local Time to UTC</button>
+            <button class="btn btn-success" onclick="printLocalTime()">Show Local and UTC Time</button>
+            <button class="btn btn-warning" onclick="daysUntilBirthday()">Days Until Birthday</button>
+            <button class="btn btn-info" onclick="daysUntilChristmas()">Days Until Christmas</button>
+        </div>
+    </div>
+</body>
+</html>
