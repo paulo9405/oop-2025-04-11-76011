@@ -12,3 +12,4 @@
 /home/paulo/PauloFiles/dorset_assignments/dorset_season_2/c#_6/oop-2025-04-11-76011/obj/Debug/net8.0/oop-2025-04-11-76011.pdb
 /home/paulo/PauloFiles/dorset_assignments/dorset_season_2/c#_6/oop-2025-04-11-76011/obj/Debug/net8.0/oop-2025-04-11-76011.genruntimeconfig.cache
 /home/paulo/PauloFiles/dorset_assignments/dorset_season_2/c#_6/oop-2025-04-11-76011/obj/Debug/net8.0/ref/oop-2025-04-11-76011.dll
+/home/paulo/PauloFiles/dorset_assignments/dorset_season_2/c#_6/oop-2025-04-11-76011/obj/Debug/net8.0/oop-2025-04-11-76011.sourcelink.json

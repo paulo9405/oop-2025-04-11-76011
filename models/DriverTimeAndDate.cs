@@ -29,3 +29,11 @@ public static class ChristmasCountdown
         Console.WriteLine($"Days until Christmas: {daysUntilChristmas}");
     }
 }
+
+public static class Deadline {
+    public static void CheckDeadline() {
+        var today = DateTime.Now;
+        var deadline = today.AddDays(2);
+        Console.WriteLine($"Deadline is in 2 days: {deadline.ToShortDateString()}");
+    }
+}

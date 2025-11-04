@@ -48,6 +48,22 @@
             const daysDiff = Math.ceil(timeDiff / (1000 * 3600 * 24));
             alert(`Days until Christmas: ${daysDiff}`);
         }
+
+        function checkDeadline() {
+            const today = new Date();
+            const deadline = new Date(today.getTime() + 2 * 24 * 60 * 60 * 1000);
+            alert(`Deadline is in 2 days: ${deadline.toLocaleDateString()}`);
+        }
+
+        function eventCountdownToChristmas() {
+            const today = new Date();
+            const christmas = new Date(today.getFullYear(), 11, 25);
+            if (today > christmas) {
+                christmas.setFullYear(christmas.getFullYear() + 1);
+            }
+            const daysDiff = Math.ceil((christmas - today) / (1000 * 3600 * 24));
+            alert(`(EventCountdown) Days until Christmas: ${daysDiff}`);
+        }
     </script>
 </head>
 <body>
@@ -59,6 +75,8 @@
             <button class="btn btn-success" onclick="printLocalTime()">Show Local and UTC Time</button>
             <button class="btn btn-warning" onclick="daysUntilBirthday()">Days Until Birthday</button>
             <button class="btn btn-info" onclick="daysUntilChristmas()">Days Until Christmas</button>
+            <button class="btn btn-danger" onclick="checkDeadline()">Check Deadline</button>
+            <button class="btn btn-dark" onclick="eventCountdownToChristmas()">EventCountdown: Days Until Christmas</button>
         </div>
     </div>
 </body>
